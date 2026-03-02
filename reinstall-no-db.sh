@@ -56,7 +56,7 @@ fi
 
 # Remove old installation and clone fresh
 rm -rf $FVRP_DIR
-git clone git@github.com:cavinpabua/fv-replowed.git $FVRP_DIR
+git clone git@github.com:cavinpabua/fv-replowed-eloquent.git $FVRP_DIR
 chown -R "$SUDO_USER":www-data $FVRP_DIR
 cd $FVRP_DIR
 
